@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK	myheader.h	/^	unsigned char ACK:1;$/;"	m	struct:TCP_header
+ETHRENT	myheader.h	/^}ETHRENT;$/;"	t	typeref:struct:ethrnet
+FTN	myheader.h	/^	unsigned char FTN:1;$/;"	m	struct:TCP_header
+IHL	myipv4hdr.h	/^	unsigned char IHL:4;  \/*  it is a  octal representation *\/$/;"	m	struct:ip_header
+IP_HEADER	myipv4hdr.h	/^}IP_HEADER;$/;"	t	typeref:struct:ip_header
+OBJ	Makefile	/^OBJ= read.o$/;"	m
+OUTFILE	Makefile	/^OUTFILE = sniffer$/;"	m
+PSH	myheader.h	/^	unsigned char PSH:1;$/;"	m	struct:TCP_header
+RST	myheader.h	/^	unsigned char RST:1;$/;"	m	struct:TCP_header
+SYN	myheader.h	/^	unsigned char SYN:1;$/;"	m	struct:TCP_header
+TCP_HEADER	myheader.h	/^}TCP_HEADER;$/;"	t	typeref:struct:TCP_header
+TCP_header	myheader.h	/^typedef struct TCP_header {$/;"	s
+TOS	myipv4hdr.h	/^	unsigned char TOS;$/;"	m	struct:ip_header
+TTL	myipv4hdr.h	/^	unsigned char TTL;$/;"	m	struct:ip_header
+Total_length	myipv4hdr.h	/^	unsigned short int Total_length;$/;"	m	struct:ip_header
+UDP_HEADER	myheader.h	/^}UDP_HEADER;$/;"	t	typeref:struct:UDP_header
+UDP_header	myheader.h	/^typedef struct UDP_header {$/;"	s
+URG	myheader.h	/^	unsigned char URG:1;$/;"	m	struct:TCP_header
+__MYHEADER__H	myheader.h	2;"	d
+ack_number	myheader.h	/^	unsigned  int ack_number;$/;"	m	struct:TCP_header
+dest	myheader.h	/^	unsigned char dest[6];$/;"	m	struct:ethrnet
+dest_addr	myipv4hdr.h	/^	unsigned  int dest_addr;$/;"	m	struct:ip_header
+dest_port	myheader.h	/^	unsigned short int dest_port;$/;"	m	struct:UDP_header
+dest_port_number	myheader.h	/^	unsigned short int dest_port_number;$/;"	m	struct:TCP_header
+display_ipheader	read.c	/^void display_ipheader(char * buffer)$/;"	f
+ethrent_type	myheader.h	/^	unsigned short int ethrent_type;$/;"	m	struct:ethrnet
+ethrnet	myheader.h	/^typedef struct ethrnet {$/;"	s
+frg_offset	myipv4hdr.h	/^	unsigned short int frg_offset;$/;"	m	struct:ip_header
+header_checksum	myipv4hdr.h	/^	unsigned short int header_checksum;$/;"	m	struct:ip_header
+header_length	myheader.h	/^	unsigned char header_length:4;$/;"	m	struct:TCP_header
+ident_length	myipv4hdr.h	/^	unsigned short int ident_length;$/;"	m	struct:ip_header
+ip_header	myipv4hdr.h	/^typedef struct ip_header {$/;"	s
+length	myheader.h	/^	unsigned short int length;$/;"	m	struct:UDP_header
+main	read.c	/^int main() $/;"	f
+protocol	myipv4hdr.h	/^	unsigned char protocol;$/;"	m	struct:ip_header
+protoname	myipv4hdr.h	/^char *protoname[] = {$/;"	v
+quiet_cmd_cc_o_cc	Makefile	/^quiet_cmd_cc_o_cc  = @ echo "GEN  $(PWD)\/$@ "$/;"	m
+reserved	myheader.h	/^	unsigned char reserved:6;$/;"	m	struct:TCP_header
+sequence_number	myheader.h	/^	unsigned int  sequence_number;$/;"	m	struct:TCP_header
+size	read.c	29;"	d	file:
+source	myheader.h	/^	unsigned char source[6];$/;"	m	struct:ethrnet
+source_addr	myipv4hdr.h	/^	unsigned  int source_addr;$/;"	m	struct:ip_header
+source_port	myheader.h	/^	unsigned short int source_port;$/;"	m	struct:UDP_header
+source_port_number	myheader.h	/^	unsigned short int source_port_number;$/;"	m	struct:TCP_header
+tcp_checksum	myheader.h	/^	unsigned short int tcp_checksum;$/;"	m	struct:TCP_header
+urgent_pointer	myheader.h	/^	unsigned short int urgent_pointer;$/;"	m	struct:TCP_header
+ver	myipv4hdr.h	/^	unsigned char ver:4;  \/*  IHL Ver Vary According to  Little to Big Endian *\/$/;"	m	struct:ip_header
+window_size	myheader.h	/^	unsigned short int window_size;$/;"	m	struct:TCP_header
