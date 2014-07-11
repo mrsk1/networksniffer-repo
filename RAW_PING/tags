@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARP_FRAME	my_struc.h	/^}ARP_FRAME;$/;"	t	typeref:struct:arp_frame
+ETHER_FRAME	my_struc.h	/^} ETHER_FRAME;$/;"	t	typeref:struct:ether_frame
+REPLY_PKT	my_struc.h	/^}REPLY_PKT;$/;"	t	typeref:struct:reply_pkt
+arp_frame	my_struc.h	/^typedef struct arp_frame {$/;"	s
+dest	my_struc.h	/^	unsigned char dest[6];$/;"	m	struct:ether_frame
+dest	my_struc.h	/^	unsigned char dest[6];$/;"	m	struct:reply_pkt
+dest_ip	my_struc.h	/^	unsigned char dest_ip[4];$/;"	m	struct:arp_frame
+dest_ip	my_struc.h	/^	unsigned char dest_ip[4];$/;"	m	struct:reply_pkt
+dest_mac	my_struc.h	/^	unsigned char dest_mac[6];$/;"	m	struct:arp_frame
+dest_mac	my_struc.h	/^	unsigned char dest_mac[6];$/;"	m	struct:reply_pkt
+ether_frame	my_struc.h	/^typedef struct ether_frame {$/;"	s
+ha_len	my_struc.h	/^	unsigned char ha_len;$/;"	m	struct:arp_frame
+ha_len	my_struc.h	/^	unsigned char ha_len;$/;"	m	struct:reply_pkt
+header	header.h	2;"	d
+hw_type	my_struc.h	/^	unsigned short int hw_type;$/;"	m	struct:arp_frame
+hw_type	my_struc.h	/^	unsigned short int hw_type;$/;"	m	struct:reply_pkt
+main	my_arp.c	/^int main()$/;"	f
+main	readdump.c	/^int main()$/;"	f
+opcode	my_struc.h	/^	unsigned short opcode;$/;"	m	struct:arp_frame
+opcode	my_struc.h	/^	unsigned short opcode;$/;"	m	struct:reply_pkt
+p_type	my_struc.h	/^	unsigned short int p_type;$/;"	m	struct:arp_frame
+p_type	my_struc.h	/^	unsigned short int p_type;$/;"	m	struct:reply_pkt
+pa_len	my_struc.h	/^	unsigned char pa_len;$/;"	m	struct:arp_frame
+pa_len	my_struc.h	/^	unsigned char pa_len;$/;"	m	struct:reply_pkt
+reply_pkt	my_struc.h	/^typedef struct reply_pkt {$/;"	s
+size	header.h	23;"	d
+src	my_struc.h	/^	unsigned char src[6];$/;"	m	struct:ether_frame
+src	my_struc.h	/^	unsigned char src[6];$/;"	m	struct:reply_pkt
+src_ip	my_struc.h	/^	unsigned char src_ip[4];$/;"	m	struct:arp_frame
+src_ip	my_struc.h	/^	unsigned char src_ip[4];$/;"	m	struct:reply_pkt
+src_mac	my_struc.h	/^	unsigned char src_mac[6];$/;"	m	struct:arp_frame
+src_mac	my_struc.h	/^	unsigned char src_mac[6];$/;"	m	struct:reply_pkt
+struc	my_struc.h	2;"	d
+type	my_struc.h	/^	unsigned short int type;$/;"	m	struct:ether_frame
+type	my_struc.h	/^	unsigned short int type;$/;"	m	struct:reply_pkt
